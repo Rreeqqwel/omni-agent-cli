@@ -1,5 +1,5 @@
 [project]
-name = "agent-cli"
+name = "omni-agent-cli"
 version = "0.1.0"
 description = "Universal multi-provider AI Agent CLI"
 requires-python = ">=3.10"
@@ -11,7 +11,7 @@ dependencies = [
 ]
 
 [project.scripts]
-agent = "agent_cli.main:app"
+omni-agent = "agent_cli.main:app"
 
 [tool.ruff]
 line-length = 100
